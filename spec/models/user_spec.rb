@@ -2,7 +2,8 @@ require 'spec_helper'
 
 describe User do
 
-  before { @user = User.new(:name => ("Example User"), :email => ("user@example.com"), :phone => ("7608282067"), :password => ("testerr"), :password_confirmation => ("testerr")) }
+  before { @user = User.new(:name => ("Example User"), :email => ("user@example.com"), 
+    :phone => ("7608282067"), :password => ("testerr"), :password_confirmation => ("testerr")) }
 
   subject { @user }
 
